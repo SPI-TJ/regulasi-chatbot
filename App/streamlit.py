@@ -1,6 +1,5 @@
-# file: app.py
 import streamlit as st
-from extractor import extract_all
+from Src.extractor import extract_all
 
 st.set_page_config(page_title="📄 Doc Loader Bot", layout="centered")
 

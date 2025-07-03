@@ -6,7 +6,7 @@ def extract_all(file):
     file_ext = filename.split(".")[-1].lower()
 
     file_bytes = file.read()
-    file.seek(0)  # Reset pointer for reuse
+    file.seek(0)
 
     extracted_text = extract_text_from_file(file)
 
